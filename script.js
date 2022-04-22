@@ -5,7 +5,7 @@ let cScore2 = document.querySelector("#cScore-2");
 const player1 = document.querySelector(".player1");
 const player2 = document.querySelector(".player2");
 let playing = true;
-const winScore = 50;
+const winScore = 200;
 
 let currentScore = 0;
 let activeP = 0;
