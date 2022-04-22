@@ -143,6 +143,13 @@ body {
     margin-right: 3%;
     margin-bottom: 20px;
   }
+  .image {
+    position: absolute;
+    top: 20%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+  }
   .player {
     position: absolute;
     top: 28%;
