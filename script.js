@@ -1,3 +1,5 @@
+alert("please read 'Descripton in box' before playing");
+
 let randomNumber = 0;
 let cScore1 = document.querySelector("#cScore-1");
 let cScore2 = document.querySelector("#cScore-2");
