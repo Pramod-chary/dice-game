@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(235, 200, 155);
+}
+.description {
+  text-align: justify;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 15px;
+  background-color: aqua;
+  border: 2px solid darkblue;
+  font-family: Arial;
+}
+.main {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  height: 100%;
+}
+.player {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 20px;
+  color: red;
+  background-color: aquamarine;
+  width: 3in;
+  height: 3in;
+  padding-left: 20px;
+  border: 2px solid black;
+  border-radius: 1em;
+  padding-bottom: 40px;
+}
+.para {
+  width: fit-content;
+  margin-left: 60px;
+}
+.tscore {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 0%;
+  padding-left: 40%;
+  font-size: 50px;
+  color: blue;
+}
+.cScore {
+  font-size: 20px;
+}
+.cscore {
+  /* position: relative; */
+  padding-left: 40%;
+  font-size: 50px;
+  color: blue;
+}
+/* .randomNumber {
+  border: 5px solid black;
+  margin-top: 10%;
+  width: 100px;
+  height: 100px;
+} */
+.toggle1 {
+  border: 5px solid red;
+}
+.image {
+  /* position: relative; */
+  width: 100px;
+  height: 100px;
+  margin-top: 10%;
+  border-radius: 1em;
+}
+.hide {
+  visibility: hidden;
+}
+.btn {
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 20em;
+  padding: 10px 15px;
+}
+.btn:hover {
+  background-color: rgb(159, 235, 159);
+}
+.dice {
+  /* display: block; */
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+}
+.add {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+}
+#foot {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  bottom: 60px;
+  left: 200px;
+  font-style: italic;
+  border-bottom: 5px dotted rgb(12, 64, 161);
+}
+.reset {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+.playagain {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+}
+.reset:hover {
+  background-color: rgb(244, 77, 77);
+}
+#won {
+  position: absolute;
+  bottom: 60px;
+  left: 40%;
+  font-size: 20px;
+  color: darkred;
+  font-family: "Times New Roman", Times, serif;
+}

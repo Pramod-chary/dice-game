@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="description">Hello! Welcome to the <i>"Roll and Win"</i> Game. This game contains two players, game starts with player1.
+    Initially Player 1 rolls the dice and if number on the dice is other than '1' then the number will be added to 'currentScore'. When player clicks the <i>Add</i>
+    button the <i>currentScore</i> will be added to <i>totalScore</i>.
+    Game control goes to Player 2 when the value on dice is '1' or Player 1 clicks the <i>Add</i> button. Similiarly this continues for Player 2 also.
+    When any Player scores more than or equal to '50' he wins and game will finish. 
+    <div class="main">
+      <div class="player player1 toggle1">
+        <p class="para">PLAYER 1</p>
+        <p class="tscore total-score1" id="tScore-0">0</p>
+        <div class="cScore">CURRENT SCORE <BR></BR><span class="cscore" id="cScore-0">0</span></div>
+      </div>
+      <img src="dice1.png" alt="" class="hide image" />
+      <div class="player player2">
+        <p class="para">PLAYER 2</p>
+        <p class="tscore total-score2" id="tScore-1">0</p>
+        <div class="cScore">CURRENT SCORE <BR></BR><span class="cscore" id="cScore-1">0</span></div>
+      </div>
+      <button class="btn dice" title="click to roll the dice">ROLL🎲</button>
+      <button class="btn add" title="click this to add current score to total score">ADD✔️</button>
+      <button class="btn reset" title="clicking this will reset game and scores">RESET🔃</button>
+      <button class="btn playagain" title="click to play again">PLAYAGAIN🎮</button>
+    </div>
+    <p id="won"></p>
+    <footer id="foot">Player 1 turn</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
