@@ -72,5 +72,7 @@ function resetfun() {
   document.getElementById("foot").textContent = `Player 1 turn`;
   image.classList.add("hide");
   document.getElementById("won").textContent = "";
+  player1.classList.toggle("toggle1");
+  player2.classList.toggle("toggle1");
 }
 document.querySelector(".playagain").addEventListener("click", resetfun);
